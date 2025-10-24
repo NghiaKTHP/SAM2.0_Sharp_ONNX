@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAM2_ONNX_UI", "SAM2_ONNX_UI\SAM2_ONNX_UI.csproj", "{A5DB76B3-9C33-4BB0-A67F-E33CAC6C926C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5DB76B3-9C33-4BB0-A67F-E33CAC6C926C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5DB76B3-9C33-4BB0-A67F-E33CAC6C926C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5DB76B3-9C33-4BB0-A67F-E33CAC6C926C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5DB76B3-9C33-4BB0-A67F-E33CAC6C926C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A60AFE99-8E67-4889-A372-6DEF099B2809}
+	EndGlobalSection
+EndGlobal
