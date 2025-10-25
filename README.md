@@ -107,7 +107,29 @@ You need to provide two ONNX model files:
 1. **Encoder Model**: Processes the input image and generates embeddings
 2. **Decoder Model**: Takes embeddings and prompts to generate segmentation masks
 
-To obtain the SAM2 ONNX models, you can export them from the official Meta SAM2 repository.
+### Downloading Pre-converted ONNX Models
+
+You can download pre-converted SAM2 ONNX models from Hugging Face:
+
+**[https://huggingface.co/vietanhdev/segment-anything-2-onnx-models/tree/main](https://huggingface.co/vietanhdev/segment-anything-2-onnx-models/tree/main)**
+
+Available model variants:
+- `sam2_hiera_tiny` - Smallest and fastest model
+- `sam2_hiera_small` - Balance between speed and accuracy
+- `sam2_hiera_base_plus` - Higher accuracy
+- `sam2_hiera_large` - Best accuracy, slower inference
+
+For each variant, download both:
+- `image_encoder.onnx` - The encoder model
+- `image_decoder.onnx` - The decoder model
+
+### Example Model Setup
+
+1. Visit the Hugging Face repository
+2. Choose a model variant (e.g., `sam2_hiera_tiny`)
+3. Download both `image_encoder.onnx` and `image_decoder.onnx`
+4. Place them in a local folder
+5. In the application, set the encoder and decoder paths to these files
 
 ## Code Example
 
