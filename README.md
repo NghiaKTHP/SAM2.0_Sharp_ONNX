@@ -177,7 +177,18 @@ msbuild SAM2_ONNX_UI.csproj /p:Configuration=Release
 
 ## License
 
-Please refer to the Meta SAM2 license for model usage. This implementation code follows the respective licenses of its dependencies.
+This project uses Meta's Segment Anything Model 2 (SAM2), which is licensed under the **Apache License 2.0**.
+
+### Model License
+- **SAM2 Model**: [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
+- You are free to use, modify, and distribute the SAM2 models for both commercial and non-commercial purposes
+- See the [official SAM2 repository](https://github.com/facebookresearch/segment-anything-2) for full license details
+
+### Implementation Code
+This implementation code is provided as-is and follows the respective licenses of its dependencies:
+- **Microsoft.ML.OnnxRuntime**: MIT License
+- **OpenCvSharp4**: Apache License 2.0
+- **Other dependencies**: Please refer to their respective license files
 
 ## Acknowledgments
 
