@@ -24,11 +24,12 @@ namespace SAM2_ONNX_UI
     /// </summary>
     public partial class MainWindow : System.Windows.Window
     {
-        SAM2 SamModel;
+        Sam2DemoTool demoTool = new Sam2DemoTool();
         public MainWindow()
         {
             
             InitializeComponent();
+            toolEdit.InitTool(demoTool);
         }
 
     }

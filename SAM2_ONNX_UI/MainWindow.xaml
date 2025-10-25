@@ -9,7 +9,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
 
-        <te:ucEditImageProcessTool></te:ucEditImageProcessTool>
+        <te:ucEditImageProcessTool x:Name="toolEdit"></te:ucEditImageProcessTool>
 
     </Grid>
 </Window>
