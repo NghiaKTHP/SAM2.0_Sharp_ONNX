@@ -1,6 +1,6 @@
 # SAM2 ONNX UI
 
-A C# WPF application for running Meta's Segment Anything Model 2 (SAM2) using ONNX Runtime for efficient image segmentation.
+A C# WPF application for running Meta's Segment Anything Model 2 (SAM2) using ONNX Runtime for efficient image segmentation. Also work with Sam 2.0 and Sam 2.1
 
 ## Overview
 
